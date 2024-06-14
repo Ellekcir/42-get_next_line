@@ -24,9 +24,9 @@
 // #include <fcntl.h> - file control library 
 
 // This is a good way of setting the buffer size to a default for your files
-//---- #ifndef BUFFER_SIZE
-//---- # define BUFFER_SIZE 42
-//---- #endif
+#ifndef BUFFER_SIZE
+# define BUFFER_SIZE 42
+#endif
 // to re-define it in particular files use above your includes - #define BUFFER_SIZE 24
 
 // Prototypes used in get_next_line.c

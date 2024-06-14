@@ -13,7 +13,7 @@
 #include "get_next_line.h"
 
 // Finnds the first occurance of a character in a string
-char	*ft_strchr(const char *s, int c)
+char	*ft_strchr(char *s, int c)
 {
 	char	*str;
 	char	chr;
